@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: purple; */
+}
+
+nav{
+    background-color: rgb(146, 244, 239);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 3rem;
+}
+.home {
+    display: flex;
+    padding: 1rem;
+    flex-wrap: wrap;
+}
+input {
+    padding: 0.7rem;
+    border: 1px solid rgba(196, 196, 196, 0.68);
+    outline: none;
+    border-radius: 5px;
+}
+form {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.coin {
+    padding: 2rem;
+    background-color: rgb(223, 220, 220);
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    gap: 10px;
+}
+
+.coin > img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+.coin > h1 {
+    text-transform: uppercase;
+}
